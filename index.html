@@ -157,7 +157,7 @@
 
 									const data = {
 													"pushbullet_token": pbToken,
-													"location": encodeURIComponent(loc)
+													"location": loc
 												}
 									fetch('http://localhost:8000/seizure_detected/',{
 										method:'POST',
@@ -187,7 +187,7 @@
 									});
 								}
 
-								// Detection API - barChatData
+								
 							},1000);
 						</script>
 					</div>
